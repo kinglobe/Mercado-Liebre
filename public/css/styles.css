@@ -35,10 +35,6 @@ p.descripcion {
 }
 
 
-body {
-      /* display: flex; */
-    /* justify-content: center;  */
-} 
 
 
 
@@ -160,9 +156,6 @@ main p.precio,p.descuento,.circle-container {
     color: var(--color-verde);
   }
 
-main p.precio {
-  
-}
 
 main p.descuento {
  color: var(--color-verde);
@@ -259,9 +252,7 @@ footer i {
         color: var(--color-verde);
       }
 
-    main p.precio {
-      
-    }
+    
 
     main p.descuento {
      color: var(--color-verde);
