@@ -40,7 +40,7 @@ p.descripcion {
 
 /* Estilos específicos para el header */
 header {
-
+    position: relative;
     background-color: var(--color-amarillo);
     padding: 60px;
 
@@ -119,6 +119,23 @@ section.compra-en-cuotas {
     font-size: 14px;
    
 
+}
+
+nav.img-banner {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 25%; 
+    overflow: hidden;
+}
+
+nav.img-banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
