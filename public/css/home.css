@@ -1,0 +1,306 @@
+.busqueda--lupa {
+    position: relative;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.boton-busqueda {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    margin: auto;
+    bottom: 0;
+    text-align: center;
+}
+
+.busqueda--lupa input {
+    width: 90%;
+    height: 15px;
+    padding: 0 10;
+}
+
+
+
+.home__header--logo--busqueda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 15px;
+}
+
+.home__header img {
+    width: 50%;
+    margin-right: 9px;
+}
+
+
+.boton {
+    background-color: var(--color-celeste);
+    color: white;
+
+}
+
+
+/* Estilos específicos para las opciones de nav */
+.nav-bar,
+.login-bar {
+    display: none;
+
+    /* Elimina los puntos */
+}
+
+
+
+.burger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-celeste);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px auto;
+
+
+}
+
+section.compra-en-cuotas {
+    display: flex;
+    justify-content: center;
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    overflow: hidden;
+    list-style-type: none;
+    font-size: 12px;
+
+
+}
+
+div.img-banner {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 25%;
+    overflow: hidden;
+}
+
+div.img-banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.home__main {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+/* Estilos generales para el box-shadow */
+.home__main__article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.home__main__article {
+    margin-bottom: 15px;
+
+}
+
+.home__main__section__article--img-articulo img {
+    width: 100%;
+
+}
+
+.info-articulo {
+    border-top: #ebebeb solid 1px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.precio {
+    width: 30%;
+}
+
+.descuento {
+    width: 70%;
+}
+
+.info-articulo i {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
+}
+
+
+main p.descuento {
+    color: var(--color-verde);
+}
+
+.descripcion {
+    display: none;
+}
+
+
+/* Estilos específicos para el footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 30px;
+    /* Ajusta el espaciado interno  */
+}
+
+footer div {
+    margin: 20px;
+}
+
+
+footer i {
+    color: var(--color-celeste);
+    /* Cambia el color  */
+    font-size: 24px;
+    /* Ajusta el tamaño  */
+}
+
+@media (min-width:430px) {
+
+    .home__header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .home__header--logo--busqueda {
+        width: 65%;
+    }
+
+    .compra-en-cuotas {
+        width: 30%;
+
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .boton-busqueda {
+        right: 10px;
+
+
+    }
+
+    .contenedor--nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .nav-bar{
+        display: flex;
+        gap: 15px;
+        
+
+    }
+    .login-bar  {
+       display: flex;
+       gap: 15px;
+    }
+
+    .login-bar i {
+        margin-left: 5px;
+    }
+
+    .nav-bar li a,
+    .login-bar li a {
+        display: block;
+        padding: 14px 16px;
+        color: black;
+        text-decoration: none;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        list-style-type: none;
+        font-size: 13px;
+
+    }
+
+    section.compra-en-cuotas {
+        display: flex;
+        color: black;
+        font-size: 11px;
+        white-space: nowrap;
+    }
+    .descripcion {
+        display: block;
+    }
+
+    .container--articulos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .home__main__article {
+        width: 48%;
+
+    }
+
+}
+
+@media (min-width:769px) {
+    .home__header {
+        display: flex;
+        align-items: center;
+    }
+
+    .home__header--logo--busqueda {
+        margin-left: 20px;
+        width: 65%;
+    }
+
+    .compra-en-cuotas {
+        width: 25%;
+        margin-left: 30px;
+
+    }
+
+    /* Ocultar la imagen del menú hamburguesa */
+    header .burger-menu {
+        display: none;
+    }
+
+    .home__main__article {
+        width: 24%;
+
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
