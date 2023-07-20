@@ -1,0 +1,20 @@
+.home__main__registro {
+   background-color: lightgray;
+   
+
+}
+
+.container--registro {
+   padding: 10px;
+
+}
+
+
+input[type="reset"] {
+   padding: 10px 20px;
+   background-color: var(--color-azul);
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}

@@ -100,7 +100,7 @@ div.img-banner img {
 .home__main {
     width: 90%;
     margin: 0 auto;
-    
+
 }
 
 /* Estilos generales para el box-shadow */
@@ -206,7 +206,7 @@ footer i {
     }
 
     .boton-busqueda {
-        right: 10px;
+        right: 2px;
 
 
     }
@@ -215,18 +215,19 @@ footer i {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        
+
     }
 
-    .nav-bar{
+    .nav-bar {
         display: flex;
         gap: 15px;
-        
+
 
     }
-    .login-bar  {
-       display: flex;
-       gap: 15px;
+
+    .login-bar {
+        display: flex;
+        gap: 15px;
     }
 
     .login-bar i {
@@ -254,6 +255,7 @@ footer i {
         font-size: 11px;
         white-space: nowrap;
     }
+
     .descripcion {
         display: block;
     }
